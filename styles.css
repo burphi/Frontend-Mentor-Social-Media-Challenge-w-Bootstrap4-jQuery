@@ -1,0 +1,250 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #63687e;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+/* Light / Dark Themes  */
+
+.light {
+  color: #1e202a;
+}
+
+.card-light {
+  background-color: #f5f7ff;
+}
+
+.card-light:hover {
+  background-color: #f0f2fa;
+}
+
+.dark {
+  color: #ffffff;
+}
+
+.card-dark {
+  background-color: #1f212e;
+}
+
+.card-dark:hover {
+  background-color: #252a41;
+}
+
+.instagram-light {
+  border-top: 5px solid transparent;
+  background:
+    linear-gradient(to bottom, #f5f7ff 0%, #f5f7ff 0%),
+    linear-gradient(95deg, #fdc468, #df4996);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+
+.instagram-light:hover {
+  border-top: 5px solid transparent;
+  background:
+  linear-gradient(to bottom, #f0f2fa 0%, #f0f2fa 0%),
+    linear-gradient(95deg, #fdc468, #df4996);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+
+.instagram-dark {
+  border-top: 5px solid transparent;
+  background:
+    linear-gradient(to bottom, #1f212e 0%, #1f212e 0%),
+    linear-gradient(95deg, #fdc468, #df4996);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+
+.instagram-dark:hover {
+  border-top: 5px solid transparent;
+  background:
+  linear-gradient(to bottom, #252a41 0%, #252a41 0%),
+    linear-gradient(95deg, #fdc468, #df4996);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  background-image: linear-gradient(to right, #378fe6 0%, #3eda82);
+}
+
+.custom-control-input:focus:not(:checked)~.custom-control-label::before {
+  background-image: linear-gradient(to right, #378fe6 0%, #3eda82);
+}
+
+.custom-switch .custom-control-label::after {
+  background-color: #aeb3cb;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+
+
+p img {
+  padding-right: 10px;
+}
+
+.card-body p {
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #3e52a3;
+  margin-top: 2rem;
+}
+
+.container {
+  margin-left: 8%;
+  margin-right: 8%;
+  max-width: 80%;
+}
+
+.heading {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.heading-box-heading {
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.heading-box p {
+  font-weight: 700;
+}
+
+.sub-heading {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.change {
+  font-size: 10px;
+  font-weight: 700;
+  padding-left: 5px;
+}
+
+.green {
+  color: #1db489;
+}
+
+.red {
+  color: #dc414c;
+}
+
+.change-box {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* General Card Settings */
+.card {
+
+  border-radius: 5px;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.card-body p {
+  margin: 0;
+}
+
+.card-deck {
+  margin-left: 10%;
+}
+
+/* Big Card Settings  */
+
+.big-card {
+  height: 14rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.big-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.facebook {
+  border-top: 5px solid #198ff5;
+}
+
+.twitter {
+  border-top: 5px solid #1ca0f2;
+}
+
+.youtube {
+  border-top: 5px solid #c4032a;
+}
+
+.text-uppercase {
+  letter-spacing: 5px;
+  font-size: 14px;
+}
+
+/* Small Card Settings */
+
+.small-card {
+  border: 0;
+  height: 7rem;
+  margin: 10px 0;
+}
+
+.small-card .card-body {
+  padding: 1.3rem 1.7rem 1rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+h6 p {
+  font-size: 14px;
+  display: inline-flex;
+  align-self: flex-end;
+}
+
+.overview {
+  font-size: 14px;
+  font-weight: 700;
+  align-self: flex-start;
+}
+
+.small-card-item {
+  /* flex-basis: 50%; */
+  align-self: flex-end;
+}
+
+h6.small-card-item {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.small-card-item-box {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
